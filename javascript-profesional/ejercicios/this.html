@@ -23,7 +23,7 @@
 
       console.log(`whoIsThis(): ${whoIsThis()}`);
 
-      // // this en el scope de una función en strict mode
+      // this en el scope de una función en strict mode
       function whoIsThisStrict() {
         'use strict';
         return this;
@@ -31,7 +31,7 @@
 
       console.log(`whoIsThisStrict(): ${whoIsThisStrict()}`);
 
-      // // this en el contexto de un objeto
+      // this en el contexto de un objeto
       const person = {
         name: 'Gabriel',
         saludar: function() {
@@ -41,11 +41,11 @@
 
       person.saludar();
 
-      // // this cuando sacamos a una función de un objeto
+      // this cuando sacamos a una función de un objeto
       const accion = person.saludar;
       accion();
 
-      // // this en el contexto de una "clase"
+      // this en el contexto de una "clase"
       function Person(name) {
         // this = {}
         this.name = name;

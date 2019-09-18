@@ -29,3 +29,12 @@ donde i significa install y la bandera -D develoment, esto quiere decir que no l
 `npm start `
 ## Documentacion  HTMLMediaEleme
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+## Introducción TypeScript 
+TypeScript es un superset de JavaScript que añade tipos a nuestras variables ayudando así a la detección de errores de forma temprana y mejorando el autocompletado.
+Los navegadores no entienden TypeScript así que lo vamos a transpilar a JavaScript usando Parcel.
+`npm install -D parcel-bundler `
+quitamos en antiguo server
+`npm rm live-server` 
+y ahora corremos el nuevo server:
+`npm start`

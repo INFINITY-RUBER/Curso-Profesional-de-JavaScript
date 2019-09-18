@@ -38,3 +38,5 @@ quitamos en antiguo server
 `npm rm live-server` 
 y ahora corremos el nuevo server:
 `npm start`
+- luego de crear configurar la ruta de TYPESCRIPT  detenemos el server y  borramos cache 
+ `rm -rf .cache dist`

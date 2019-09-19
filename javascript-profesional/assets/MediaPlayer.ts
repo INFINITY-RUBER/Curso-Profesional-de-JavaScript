@@ -13,12 +13,15 @@ class MediaPlayer {
             plugin.run(this);
         });
     }
+
     play() {
         this.media.play();
     }
+
     pause() {
         this.media.pause();
     }
+
     togglePlay() {
         if (this.media.paused) {
             this.play();
@@ -27,9 +30,11 @@ class MediaPlayer {
             this.pause();
         }
     }
+
     mute() {
         this.media.muted = true;
     }
+    
     unmute() {
         this.media.muted = false;
     }

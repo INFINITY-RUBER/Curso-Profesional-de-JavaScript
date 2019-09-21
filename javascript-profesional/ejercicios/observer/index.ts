@@ -34,6 +34,8 @@ notify(data: any) {
 }
 }
 
+
+
 class PriceDisplay implements Observer {
 private el: HTMLElement;
 

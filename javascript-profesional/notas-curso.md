@@ -1,5 +1,7 @@
 https://augdiaugus.gitbook.io/platzi/escuela-de-javascript/curso-profesional-de-javascript
 
+https://augdiaugus.gitbook.io/recoleccion-de-notas-publicas/escuela-de-javascript/curso-profesional-de-javascript
+
 Primer paso
 Crearemos nuestros primeros archivos usando `npm init -y`, donde -y es una bandera que le dicta a npm que le diga sí a todas las preguntas que haga.
 `npm init -y`

@@ -1,7 +1,7 @@
 import MediaPlayer from "./MediaPlayer";
-import AutoPlay from "./plugins/AutoPlay";
-import AutoPause from "./plugins/AutoPause";
-import Ads from "./plugins/Ads";
+import AutoPlay from "../../mediaplayer/src/plugins/AutoPlay";
+import AutoPause from "../../mediaplayer/src/plugins/AutoPause";
+import Ads from "../../mediaplayer/src/plugins/Ads";
 
 
 

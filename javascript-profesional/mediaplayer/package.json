@@ -1,0 +1,17 @@
+{
+  "name": "@ruber_infinity/platzimediaplayer",
+  "version": "1.0.0",
+  "main": "lib/MediaPlayer.js",
+  "scripts": {
+    "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ruber",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  },
+  "description": ""
+}

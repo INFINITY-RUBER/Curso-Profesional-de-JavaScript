@@ -190,3 +190,6 @@ import Ads from "@ruber_infinity/platzimediaplayer/lib/plugins/Ads";
 ```
 ### luego instalamos todos los modulos  con 
 `npm i`
+
+### ya podemos correr el servidor con: 
+`npm run start`
